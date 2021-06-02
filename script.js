@@ -9,12 +9,12 @@ function text () {
   document.getElementById('myparagraph').innerHTML = 'Zenitsu Agatsuma'
 }
 // The code below will hide the text
-  document.getElementById('hide').addEventListener('click', hide)
+document.getElementById('hide').addEventListener('click', hide)
 function hide () {
   document.getElementById('myparagraph').style.display = 'none'
 }
 // The code below will show the image
-  document.getElementById('show').addEventListener('click', show)
+document.getElementById('show').addEventListener('click', show)
 function show () {
   document.getElementById('myparagraph').style.display = 'block'
 }
